@@ -41,11 +41,55 @@ namespace XamarinAndroidCustomKeyboard
 			}
 		}
 		
-		public partial class Layout
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int keyboard-background-Color = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int keyboard-divider = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int keyboard-pressed = 2130968578;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int key_bakground = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int normal = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int pressed = 2130837506;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int keyboardLayout = 2130903040;
 			
 			static Layout()
 			{
@@ -60,8 +104,8 @@ namespace XamarinAndroidCustomKeyboard
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f050000
+			public const int app_name = 2131034112;
 			
 			static String()
 			{
