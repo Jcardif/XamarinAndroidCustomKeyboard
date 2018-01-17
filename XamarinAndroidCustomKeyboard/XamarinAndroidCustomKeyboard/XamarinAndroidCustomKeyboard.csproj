@@ -80,7 +80,7 @@
     <AndroidResource Include="Resources\values\Colors.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\key_bakground.xml" />
+    <AndroidResource Include="Resources\drawable\key_background.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\normal.xml" />

@@ -67,7 +67,7 @@ namespace XamarinAndroidCustomKeyboard
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int key_bakground = 2130837504;
+			public const int key_background = 2130837504;
 			
 			// aapt resource value: 0x7f020001
 			public const int normal = 2130837505;
