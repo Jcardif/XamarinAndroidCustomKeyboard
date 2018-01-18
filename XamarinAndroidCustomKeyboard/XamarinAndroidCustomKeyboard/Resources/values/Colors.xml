@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <color name="keyboard-background-Color">#34495e</color>
-  <color name="keyboard-divider">#2ce350</color>
-  <color name="keyboard-pressed">#95a5a6</color>
+  <color name="keyboard_background_Color">#34495e</color>
+  <color name="keyboard_divider">#2ce350</color>
+  <color name="keyboard_pressed">#95a5a6</color>
 </resources>

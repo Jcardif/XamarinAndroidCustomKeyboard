@@ -44,14 +44,14 @@ namespace XamarinAndroidCustomKeyboard
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int keyboard-background-Color = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int keyboard_background_Color = 2131034112;
 			
-			// aapt resource value: 0x7f040001
-			public const int keyboard-divider = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int keyboard_divider = 2131034113;
 			
-			// aapt resource value: 0x7f040002
-			public const int keyboard-pressed = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int keyboard_pressed = 2131034114;
 			
 			static Color()
 			{
@@ -85,11 +85,30 @@ namespace XamarinAndroidCustomKeyboard
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int keyboardLayout = 2131165184;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
 			public const int keyboardLayout = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int KeyPreview = 2130903041;
 			
 			static Layout()
 			{
@@ -104,8 +123,8 @@ namespace XamarinAndroidCustomKeyboard
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int app_name = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int app_name = 2131099648;
 			
 			static String()
 			{
@@ -113,6 +132,25 @@ namespace XamarinAndroidCustomKeyboard
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int Method = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int Qwerty = 2130968577;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}
