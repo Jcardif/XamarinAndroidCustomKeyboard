@@ -5,9 +5,81 @@
           android:horizontalGap="0px"
           android:verticalGap="0px">
   <Row>
-    <key android:codes="49"
-         android:keyLabel="1"
-         android:keyEdgeFlags="left"/>
+    <key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
+    <key android:codes="50" android:keyLabel="2"/>
+    <key android:codes="51" android:keyLabel="3"/>
+    <key android:codes="52" android:keyLabel="4"/>
+    <key android:codes="53" android:keyLabel="5"/>
+    <key android:codes="54" android:keyLabel="6"/>
+    <key android:codes="55" android:keyLabel="7"/>
+    <key android:codes="56" android:keyLabel="8"/>
+    <key android:codes="57" android:keyLabel="9"/>
+    <key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
   </Row>
 
+  <Row>
+    <key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>
+    <key android:codes="119" android:keyLabel="w"/>
+    <key android:codes="101" android:keyLabel="e"/>
+    <key android:codes="114" android:keyLabel="r"/>
+    <key android:codes="116" android:keyLabel="t"/>
+    <key android:codes="121" android:keyLabel="y"/>
+    <key android:codes="117" android:keyLabel="u"/>
+    <key android:codes="105" android:keyLabel="i"/>
+    <key android:codes="111" android:keyLabel="o"/>
+    <key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>
+  </Row>
+
+  <Row>
+    <key android:codes="97" android:keyLabel="a" android:keyEdgeFlags="left"/>
+    <key android:codes="115" android:keyLabel="s"/>
+    <key android:codes="100" android:keyLabel="d"/>
+    <key android:codes="102" android:keyLabel="f"/>
+    <key android:codes="103" android:keyLabel="g"/>
+    <key android:codes="104" android:keyLabel="h"/>
+    <key android:codes="106" android:keyLabel="j"/>
+    <key android:codes="107" android:keyLabel="k"/>
+    <key android:codes="108" android:keyLabel="l"/>
+    <key android:codes="35,64" android:keyLabel="\# \@" android:keyEdgeFlags="right"/>
+  </Row>
+
+  <Row>
+    <key android:codes="115" android:keyLabel="CAPS" android:keyEdgeFlags="left"/>
+    <key android:codes="122" android:keyLabel="z"/>
+    <key android:codes="120" android:keyLabel="x"/>
+    <key android:codes="99" android:keyLabel="c"/>
+    <key android:codes="118" android:keyLabel="v"/>
+    <key android:codes="98" android:keyLabel="b"/>
+    <key android:codes="110" android:keyLabel="n"/>
+    <key android:codes="109" android:keyLabel="m"/>
+    <key android:codes="46" android:keyLabel="."/>
+    <key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyEdgeFlags="right"/>
+  </Row>
+
+  <Row android:rowEdgeFlags="bottom">
+    <key android:codes="44" 
+         android:keyLabel=","
+         android:keyWidth="10%p"
+         android:keyEdgeFlags="left"/>
+
+    <key android:codes="47"
+         android:keyLabel="/"
+         android:keyWidth="10%p"/>
+
+
+    <key android:codes="32"
+         android:keyLabel="SPACE"
+         android:keyWidth="40%p"
+         android:isRepeatable="true"/>
+
+    <key android:codes="67"
+         android:keyLabel="DEL"
+         android:keyWidth="20%p"
+         android:isRepeatable="true"/>
+
+    <key android:codes="66"
+         android:keyLabel="ENTER"
+         android:keyWidth="20%p"
+         android:keyEdgeFlags="right"/>
+  </Row>
 </Keyboard>
